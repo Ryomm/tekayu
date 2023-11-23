@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECC71E322B0F0A4C00F077F9 /* TekayuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC71E312B0F0A4C00F077F9 /* TekayuApp.swift */; };
+		ECC71E342B0F0A4C00F077F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC71E332B0F0A4C00F077F9 /* ContentView.swift */; };
+		ECC71E362B0F0A4C00F077F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECC71E352B0F0A4C00F077F9 /* Assets.xcassets */; };
+		ECC71E392B0F0A4C00F077F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECC71E382B0F0A4C00F077F9 /* Preview Assets.xcassets */; };
+		ECC8E8A62B0F128600F2278B /* HapticController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC8E8A52B0F128600F2278B /* HapticController.swift */; };
+		ECC8E8AA2B0F281800F2278B /* Vibrate in Frameworks */ = {isa = PBXBuildFile; productRef = ECC8E8A92B0F281800F2278B /* Vibrate */; };
+		ECC8E8AC2B0F2A6000F2278B /* Haptics in Frameworks */ = {isa = PBXBuildFile; productRef = ECC8E8AB2B0F2A6000F2278B /* Haptics */; };
+		ECC8E8AE2B0F2A7D00F2278B /* VibrateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC8E8AD2B0F2A7D00F2278B /* VibrateController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ECC71E2E2B0F0A4C00F077F9 /* Tekayu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tekayu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC71E312B0F0A4C00F077F9 /* TekayuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TekayuApp.swift; sourceTree = "<group>"; };
+		ECC71E332B0F0A4C00F077F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ECC71E352B0F0A4C00F077F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECC71E382B0F0A4C00F077F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ECC8E8A52B0F128600F2278B /* HapticController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticController.swift; sourceTree = "<group>"; };
+		ECC8E8AD2B0F2A7D00F2278B /* VibrateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibrateController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECC71E2B2B0F0A4C00F077F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC8E8AA2B0F281800F2278B /* Vibrate in Frameworks */,
+				ECC8E8AC2B0F2A6000F2278B /* Haptics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECC71E252B0F0A4C00F077F9 = {
+			isa = PBXGroup;
+			children = (
+				ECC71E302B0F0A4C00F077F9 /* Tekayu */,
+				ECC71E2F2B0F0A4C00F077F9 /* Products */,
+				ECC8E8A22B0F106E00F2278B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ECC71E2F2B0F0A4C00F077F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECC71E2E2B0F0A4C00F077F9 /* Tekayu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECC71E302B0F0A4C00F077F9 /* Tekayu */ = {
+			isa = PBXGroup;
+			children = (
+				ECC71E312B0F0A4C00F077F9 /* TekayuApp.swift */,
+				ECC71E332B0F0A4C00F077F9 /* ContentView.swift */,
+				ECC8E8A52B0F128600F2278B /* HapticController.swift */,
+				ECC8E8AD2B0F2A7D00F2278B /* VibrateController.swift */,
+				ECC71E352B0F0A4C00F077F9 /* Assets.xcassets */,
+				ECC71E372B0F0A4C00F077F9 /* Preview Content */,
+			);
+			path = Tekayu;
+			sourceTree = "<group>";
+		};
+		ECC71E372B0F0A4C00F077F9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ECC71E382B0F0A4C00F077F9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ECC8E8A22B0F106E00F2278B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECC71E2D2B0F0A4C00F077F9 /* Tekayu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC71E3C2B0F0A4C00F077F9 /* Build configuration list for PBXNativeTarget "Tekayu" */;
+			buildPhases = (
+				ECC71E2A2B0F0A4C00F077F9 /* Sources */,
+				ECC71E2B2B0F0A4C00F077F9 /* Frameworks */,
+				ECC71E2C2B0F0A4C00F077F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tekayu;
+			packageProductDependencies = (
+				ECC8E8A92B0F281800F2278B /* Vibrate */,
+				ECC8E8AB2B0F2A6000F2278B /* Haptics */,
+			);
+			productName = Tekayu;
+			productReference = ECC71E2E2B0F0A4C00F077F9 /* Tekayu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECC71E262B0F0A4C00F077F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					ECC71E2D2B0F0A4C00F077F9 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = ECC71E292B0F0A4C00F077F9 /* Build configuration list for PBXProject "Tekayu" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECC71E252B0F0A4C00F077F9;
+			productRefGroup = ECC71E2F2B0F0A4C00F077F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECC71E2D2B0F0A4C00F077F9 /* Tekayu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECC71E2C2B0F0A4C00F077F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC71E392B0F0A4C00F077F9 /* Preview Assets.xcassets in Resources */,
+				ECC71E362B0F0A4C00F077F9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECC71E2A2B0F0A4C00F077F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC71E342B0F0A4C00F077F9 /* ContentView.swift in Sources */,
+				ECC8E8A62B0F128600F2278B /* HapticController.swift in Sources */,
+				ECC71E322B0F0A4C00F077F9 /* TekayuApp.swift in Sources */,
+				ECC8E8AE2B0F2A7D00F2278B /* VibrateController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ECC71E3A2B0F0A4C00F077F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECC71E3B2B0F0A4C00F077F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECC71E3D2B0F0A4C00F077F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tekayu/Preview Content\"";
+				DEVELOPMENT_TEAM = 4S7NKC6Q36;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ryomm.tekayu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECC71E3E2B0F0A4C00F077F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tekayu/Preview Content\"";
+				DEVELOPMENT_TEAM = 4S7NKC6Q36;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ryomm.tekayu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECC71E292B0F0A4C00F077F9 /* Build configuration list for PBXProject "Tekayu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC71E3A2B0F0A4C00F077F9 /* Debug */,
+				ECC71E3B2B0F0A4C00F077F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC71E3C2B0F0A4C00F077F9 /* Build configuration list for PBXNativeTarget "Tekayu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC71E3D2B0F0A4C00F077F9 /* Debug */,
+				ECC71E3E2B0F0A4C00F077F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ECC8E8A92B0F281800F2278B /* Vibrate */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Vibrate;
+		};
+		ECC8E8AB2B0F2A6000F2278B /* Haptics */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Haptics;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = ECC71E262B0F0A4C00F077F9 /* Project object */;
+}
