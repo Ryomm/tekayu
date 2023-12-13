@@ -7,24 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC2692FB2B29A6B8000DA5B6 /* TekayuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2692FA2B29A6B8000DA5B6 /* TekayuViewModel.swift */; };
 		ECC71E322B0F0A4C00F077F9 /* TekayuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC71E312B0F0A4C00F077F9 /* TekayuApp.swift */; };
-		ECC71E342B0F0A4C00F077F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC71E332B0F0A4C00F077F9 /* ContentView.swift */; };
+		ECC71E342B0F0A4C00F077F9 /* RootScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC71E332B0F0A4C00F077F9 /* RootScreen.swift */; };
 		ECC71E362B0F0A4C00F077F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECC71E352B0F0A4C00F077F9 /* Assets.xcassets */; };
 		ECC71E392B0F0A4C00F077F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECC71E382B0F0A4C00F077F9 /* Preview Assets.xcassets */; };
-		ECC8E8A62B0F128600F2278B /* HapticController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC8E8A52B0F128600F2278B /* HapticController.swift */; };
-		ECC8E8AA2B0F281800F2278B /* Vibrate in Frameworks */ = {isa = PBXBuildFile; productRef = ECC8E8A92B0F281800F2278B /* Vibrate */; };
-		ECC8E8AC2B0F2A6000F2278B /* Haptics in Frameworks */ = {isa = PBXBuildFile; productRef = ECC8E8AB2B0F2A6000F2278B /* Haptics */; };
-		ECC8E8AE2B0F2A7D00F2278B /* VibrateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC8E8AD2B0F2A7D00F2278B /* VibrateController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC2692FA2B29A6B8000DA5B6 /* TekayuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TekayuViewModel.swift; sourceTree = "<group>"; };
 		ECC71E2E2B0F0A4C00F077F9 /* Tekayu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tekayu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECC71E312B0F0A4C00F077F9 /* TekayuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TekayuApp.swift; sourceTree = "<group>"; };
-		ECC71E332B0F0A4C00F077F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ECC71E332B0F0A4C00F077F9 /* RootScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootScreen.swift; sourceTree = "<group>"; };
 		ECC71E352B0F0A4C00F077F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECC71E382B0F0A4C00F077F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		ECC8E8A52B0F128600F2278B /* HapticController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticController.swift; sourceTree = "<group>"; };
-		ECC8E8AD2B0F2A7D00F2278B /* VibrateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibrateController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,8 +28,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECC8E8AA2B0F281800F2278B /* Vibrate in Frameworks */,
-				ECC8E8AC2B0F2A6000F2278B /* Haptics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,9 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				ECC71E312B0F0A4C00F077F9 /* TekayuApp.swift */,
-				ECC71E332B0F0A4C00F077F9 /* ContentView.swift */,
-				ECC8E8A52B0F128600F2278B /* HapticController.swift */,
-				ECC8E8AD2B0F2A7D00F2278B /* VibrateController.swift */,
+				ECC71E332B0F0A4C00F077F9 /* RootScreen.swift */,
+				EC2692FA2B29A6B8000DA5B6 /* TekayuViewModel.swift */,
 				ECC71E352B0F0A4C00F077F9 /* Assets.xcassets */,
 				ECC71E372B0F0A4C00F077F9 /* Preview Content */,
 			);
@@ -102,8 +95,6 @@
 			);
 			name = Tekayu;
 			packageProductDependencies = (
-				ECC8E8A92B0F281800F2278B /* Vibrate */,
-				ECC8E8AB2B0F2A6000F2278B /* Haptics */,
 			);
 			productName = Tekayu;
 			productReference = ECC71E2E2B0F0A4C00F077F9 /* Tekayu.app */;
@@ -159,10 +150,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECC71E342B0F0A4C00F077F9 /* ContentView.swift in Sources */,
-				ECC8E8A62B0F128600F2278B /* HapticController.swift in Sources */,
+				ECC71E342B0F0A4C00F077F9 /* RootScreen.swift in Sources */,
+				EC2692FB2B29A6B8000DA5B6 /* TekayuViewModel.swift in Sources */,
 				ECC71E322B0F0A4C00F077F9 /* TekayuApp.swift in Sources */,
-				ECC8E8AE2B0F2A7D00F2278B /* VibrateController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,17 +353,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		ECC8E8A92B0F281800F2278B /* Vibrate */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = Vibrate;
-		};
-		ECC8E8AB2B0F2A6000F2278B /* Haptics */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = Haptics;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = ECC71E262B0F0A4C00F077F9 /* Project object */;
 }

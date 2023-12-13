@@ -9,7 +9,7 @@ import SwiftUI
 struct TekayuApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootScreen()
         }
     }
 }
